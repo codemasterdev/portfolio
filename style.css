@@ -48,23 +48,23 @@ a {
 
 #about {
     height: 100vh;
-    background-color: pink;
+    background-color:#7040b8;
 }
 
 #skills {
     height: 100vh;
-    background-color: purple;
+    background-color:#3e2670;
     display: flex;
 }
 
 
 #projects {
     height: 100vh;
-    background-color: yellow;
+    background-color: #7040b8;
 
 }
 
 #contact-footer {
     height: 100vh;
-    background: teal;
+    background: #3e2670;
 }
