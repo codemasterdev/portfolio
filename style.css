@@ -64,11 +64,34 @@ section nav ul li a {
     background-color:#7040b8;
 }
 
+main {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .img-container {
     display: inline-block;
     background-color: #3e2670;
     max-width: 200px;
     max-height: 300px;
+    border: 2px solid red;
+    margin: 10%;
+}
+
+.about-container {
+    display: inline-block;
+    background-color: #3e2670;
+    max-width: 50px;
+    max-height: 300px;
+    border: 2px solid red;
+    margin: 10%;
+}
+
+ #about-me {
+    right: 50%;
+    border: 2px solid green;
+    text-align: right;
+    align-content: center;
 }
 
 #pic {
@@ -99,6 +122,7 @@ section nav ul li a {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    margin: 50px;
 }
 
 .skills-img {
@@ -126,6 +150,26 @@ section nav ul li a {
     height: 100vh;
     background-color: #7040b8;
 }
+
+.project-list-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project {
+    display: inline-block;
+    margin: 50px;
+    border: 2px solid black;
+    padding: 25px;
+    color: white;
+    width: 200px;
+}
+
+.first-project {
+    flex: 2;
+}
+
 /* CONTACT */
 
 #contact-footer {
