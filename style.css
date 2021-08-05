@@ -4,34 +4,8 @@
     box-sizing: border-box;
 }
 
-#welcome {
-    background-image: url("https://images.unsplash.com/photo-1503575977665-5e1e9bb63822?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2048&q=80");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    background-color: beige;
-}
-
-.nav-list {
-    display: flex;
-    /* flex-direction: row-reverse; */
-}
-
-.nav-item {
-     margin: 20px;
-     color: black;
-     text-decoration: none;
-     list-style: none;
-}
-
-a {
-    text-decoration: none;
-    color: white;
-    border: 2px solid black;
-    padding: 5px 20px;
-    background: black;
-    border-radius: 10%;
+p {
+    color: gold;
 }
 
  h1 {
@@ -46,25 +20,111 @@ a {
      /* border: 2px solid red; */
  }
 
+ h2 {
+     text-align: center;
+     color: white;
+ }
+
+/* HOME PAGE STYLES */
+#welcome {
+    background-image: url("https://images.unsplash.com/photo-1503575977665-5e1e9bb63822?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2048&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-color: beige;
+}
+
+
+.nav-list {
+    display: flex;
+    /* flex-direction: row-reverse; */
+}
+
+.nav-item {
+     margin: 20px;
+     color: black;
+     text-decoration: none;
+     list-style: none;
+}
+/* HOME PAGE STYLES END */
+
+section nav ul li a {
+    text-decoration: none;
+    color: white;
+    border: 2px solid black;
+    padding: 5px 20px;
+    background: black;
+    border-radius: 10%;
+}
+
+ /* ABOUT ME STYLES*/
 #about {
     height: 100vh;
     background-color:#7040b8;
 }
 
+.img-container {
+    display: inline-block;
+    background-color: #3e2670;
+    max-width: 200px;
+    max-height: 300px;
+}
+
+#pic {
+    display: block;
+    width: 70%;
+    margin: auto;
+    height: 70%
+}
+
+ section article p {
+    text-align: center;
+    width: 50%;
+    line-height: 28px;
+    letter-spacing: 2px;
+}
+
+
+/* ABOUT ME STYLES END */
+
+/* SKILLS STYLES */
 #skills {
     height: 100vh;
     background-color:#3e2670;
-    display: flex;
 }
 
+.html {
+    display: inline-block;
+    color: red;
+}
 
+.css {
+    display: inline-block;
+    color: gold;
+}
+
+.javascript {
+    display: inline-block;
+    color: black;
+}
+
+#skills-img {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+/* STYLES END */
+
+/* PROJECTS */
 #projects {
     height: 100vh;
     background-color: #7040b8;
-
 }
+/* CONTACT */
 
 #contact-footer {
-    height: 100vh;
+    height: 30vh;
     background: #3e2670;
 }
+/* CONTACT END */

@@ -9,9 +9,13 @@
 </head>
 
 <body>
+    <!-- WELCOME SECTION -->
+
     <section id="welcome">
         <nav>
+            <!-- NAV LIST-->
             <ul class="nav-list">
+                <!-- NAV ITEMS-->
                 <li class="nav-item"><a href="#about">About</a></li>
                 <li class="nav-item"><a href="#skills">Skills</a></li>
                 <li class="nav-item"><a href="#projects">Projects</a></li>
@@ -20,27 +24,86 @@
         </nav>
         <h1>Hello, I'm Devon <br>&<br> I'm a Web Developer</h1>
     </section>
+
+    <!-- WELCOME SECTION END -->
+
+    <!-- ABOUT ME SECTION -->
+
     <section id="about">
         <h2> About Me</h2>
         <article>
-            <p>
-                I am passionate about creating intuitive and dynamic user experience. Contributing to the creation of
-                high-quality products that are user-centered is what drives my work ethic. Problem-solving, attention to
+            <div class="img-container">
+                <img id="pic" src="./pictures/devon-blue-shirt.JPG" alt="devon with a blue shirt">
+            </div>
+            <p id="about-me">
+                I am passionate about creating intuitive and dynamic user experience. Contributing to the creation
+                of
+                high-quality products that are user-centered is what drives my work ethic. Problem-solving,
+                attention to
                 details, and creativity are my main principles, therefore having an opportunity to apply these in my
                 job, be
                 in continuous and building new skills is my aim.
             </p>
         </article>
     </section>
+
+    <!-- ABOUT ME SECTION END -->
+
+    <!-- SKILLS SECTION -->
+
     <section id="skills">
         <h2>My Skills</h2>
+        <article id="skills-img" class="html">
+            <h3>html</h3>
+            <img src="./pictures/html-logo.png" alt="html5 logo">
+        </article>
+        <article id="skills-img" class="css">
+            <h3>css</h3>
+            <img src="./pictures/CSS3-logo.svg" alt="css3 logo">
+        </article>
+        <article id="skills-img" class="javascript">
+            <h3>javascript</h3>
+            <img src="./pictures/Js-logo.jpeg" alt="javascript logo">
+        </article>
     </section>
+
+    <!-- SKILLS SECTION END -->
+
+    <!-- PROJECTS -->
+
     <section id="projects">
         <h2>Projects</h2>
     </section>
+
+    <!-- PROJECTS END -->
+
+    <!-- CONTACT-->
+
     <section id="contact-footer">
         <h2>Reach Out</h2>
+        <address>
+            Hartford, CT <br />
+            <br />
+            P: <a href="tel:860.899.5511">(860)899-5511</a><br />
+            E: <a href="mailto://d.webster05@yahoo.com">d.webster05@yahoo.com</a>
+        </address>
+
+        <div class="contact-form">
+            <h3>Contact Me</h3>
+            <form>
+                <label for="contact-name">Your Name</label>
+                <input type="text" id="contact-name" placeholder="Your Name" />
+
+                <label for="contact-message">Message</label>
+                <textarea id="contact-message" placeholder="Message"></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
     </section>
+
+    <!-- CONTACT END -->
 </body>
 
 </html>
