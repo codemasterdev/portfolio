@@ -2,145 +2,155 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Devon's Portfolio</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="./style.css" />
+
 </head>
 
 <body>
-    <!-- WELCOME SECTION -->
 
-    <section id="welcome">
+    <!-- HEADER START -->
+
+    <header>
+        <h1>
+            <a href="https://codemasterdev.github.io/portfolio/index.html">Devon Webster</a>
+        </h1>
         <nav>
-            <!-- NAV LIST-->
-            <ul class="nav-list">
-                <!-- NAV ITEMS-->
-                <li class="nav-item"><a href="#about">About</a></li>
-                <li class="nav-item"><a href="#skills">Skills</a></li>
-                <li class="nav-item"><a href="#projects">Projects</a></li>
-                <li class="nav-item"><a href="#contact-footer">Contact</a></li>
+            <ul>
+                <li>
+                    <a href="#about-me">About Me</a>
+                </li>
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+                <li>
+                    <a href="#contact-me">Contact Me</a>
+                </li>
             </ul>
         </nav>
-        <h1>Hello, I'm Devon <br>&<br> I'm a Web Developer</h1>
+    </header>
+
+    <!-- HEADER END -->
+
+    <!-- HERO START -->
+
+    <section class="hero">
+        <div class="hero-cta">
+            <h2>Welcome To My Page!</h2>
+            <p>
+                Hello, Im Devon<br> & I'm a Web Developer
+                <hr>
+
+            </p>
+        </div>
     </section>
 
-    <!-- WELCOME SECTION END -->
+    <!-- HERO END -->
 
-    <!-- ABOUT ME SECTION -->
+    <!-- ABOUT ME START-->
 
-    <section id="about">
-        <h2> About Me</h2>
-        <main>
-            <div class="img-container">
-                <img id="pic" src="./pictures/devon-blue-shirt.JPG" alt="devon with a blue shirt">
+    <section id="about-me">
+        <div class="container1">
+            <div class="box1">
+                <h2>About Me</h2>
             </div>
-            <div class=about-container">
-                <p id="about-me">
-                    I am passionate about creating intuitive and dynamic user experience. Contributing to the creation
+            <div class="box2">
+                <p>I am passionate about creating intuitive and dynamic user experience. Contributing to the creation
                     of
                     high-quality products that are user-centered is what drives my work ethic. Problem-solving,
                     attention to
                     details, and creativity are my main principles, therefore having an opportunity to apply these in my
                     job, be
-                    in continuous and building new skills is my aim.
-                </p>
+                    in continuous and building new skills is my aim.</p>
             </div>
-        </main>
-    </section>
-
-    <!-- ABOUT ME SECTION END -->
-
-    <!-- SKILLS SECTION -->
-
-    <section id="skills">
-
-        <h2>My Skills</h2>
-        <div class="container">
-            <article class="html skill-card">
-                <img src="./pictures/html_logo.png" alt="html5 logo">
-                <!-- <h3>html</h3> -->
-            </article>
-            <article class="css skill-card">
-                <img src="./pictures/css3_logo.png" alt="css3 logo">
-                <!-- <h3>css</h3> -->
-            </article>
-            <article class="javascript skill-card">
-                <img class="skills-img" src="./pictures/js_logo.png" alt="javascript logo">
-                <!-- <h3>javascript</h3> -->
-            </article>
         </div>
     </section>
 
-    <!-- SKILLS SECTION END -->
+    <!-- ABOUT ME END -->
 
-    <!-- PROJECTS -->
+    <!-- PROJECTS START -->
 
     <section id="projects">
+        <div class="container2">
+            <div class="box1">
+                <h2>projects</h2>
+            </div>
+            <a href="/">
+                <div class="box3">
+                    <div class="mini-box">
+                        <p1>Surf Report</p1></br>
+                        <p2>MERN stack</p2>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="container2">
 
-        <div class="projects-title-text">
-            <h2>Projects</h2>
+            <div class="cont1">
+                <a href="/">
+                    <div class="box4">
+                        <div class="mini-box1">
+                            <p1>LED Wall</p1></br>
+                            <p2>Node Iot</p2>
+                        </div>
+                    </div>
+                </a>
+                <a href="/">
+                    <div class="box5">
+                        <div class="mini-box1">
+                            <p1>Calculator</p1></br>
+                            <p2>React JS CSS</p2>
+                        </div>
+                    </div>
+                </a>
+                <a href="/">
+                    <div class="box6">
+                        <div class="mini-box1">
+                            <p1>Pastel Puzzle</p1></br>
+                            <p2>MERN stack</p2>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://codemasterdev.github.io/run-buddy/">
+                    <div class="box7">
+                        <div class="mini-box1">
+                            <p1>Run Buddy</p1></br>
+                            <p2>HTML CSS</p2>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
         </div>
 
-        <!-- CONTAINER FOR AL PROJECTS -->
-        <div class="projects-list-container">
+    </section>
+    <!-- PROJECT END -->
 
-            <a href="https://codemasterdev.github.io/run-buddy/" class="first-project project" target="_blank">
-                <div>
-                    <h3>Run Buddy</h3>
-                    <h4>HTML/CSS</h4>
-                </div>
-            </a>
-
-            <!-- Placeholder URL for the next sections until more projects are ready -->
-            <a href="#" class="second-project project" target="_blank">
-                <div>
-                    <h3>Second Project</h3>
-                    <h4>HTML/CSS</h4>
-                </div>
-            </a>
-
-            <a href="#" class="third-project project" target="_blank">
-                <div>
-                    <h3>Third Project</h3>
-                    <h4>HTML/CSS</h4>
-                </div>
-            </a>
-
-            <a href="#" class="forth-project project" target="_blank">
-                <div>
-                    <h3>Fourth Project</h3>
-                    <h4>HTML/CSS</h4>
-                </div>
-            </a>
+    <!-- CONTACT START -->
+    <section id="contact-me">
+        <div class="container3">
+            <div class="box1">
+                <h2>Contact</h2>
+            </div>
+            <nav class="box2">
+                <!-- NAV LIST-->
+                <ul class="contact-list">
+                    <!-- NAV ITEMS-->
+                    <li class="contact-item"><a href="">Email</a></li>
+                    <li class="contact-item"><a href="">Github</a></li>
+                    <li class="contact-item"><a href="">LinkedIn</a></li>
+                    <li class="contact-item"><a href="">Twitter</a></li>
+                </ul>
+            </nav>
 
         </div>
-
-
-
-
     </section>
 
-    <!-- PROJECTS END -->
-
-    <!-- CONTACT-->
-
-    <section id="contact-footer">
-        <h2>Reach Out</h2>
-        <nav>
-            <!-- FOOTER LIST-->
-            <ul class="footer-list">
-                <!-- FOOTER ITEMS-->
-                <li class="footer-item"><a href="">Email</a></li>
-                <li class="footer-item"><a href="">Github</a></li>
-                <li class="footer-item"><a href="">LinkedIn</a></li>
-                <li class="footer-item"><a href="">Twitter</a></li>
-            </ul>
-        </nav>
-
-    </section>
 
     <!-- CONTACT END -->
 </body>
-
-</html>
