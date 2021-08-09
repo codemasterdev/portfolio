@@ -42,13 +42,6 @@ section {
 /* HEADER START */
 
 header {
-  padding: 20px 35px;
-  background-color: var(--primary-color);
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  position: -webkit-sticky;
-  position: sticky;
   top: 0;
   background-image: url("/");
   background-size: cover;
@@ -57,6 +50,14 @@ header {
   background-position: 80%;
   z-index: 9999;
   color: var(--secondary-color);
+  padding: 20px 35px;
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: -webkit-sticky;
+  position: sticky;
+  
 }
 
 header h1 {
@@ -170,15 +171,6 @@ header nav ul li a:hover{
 
 /* PROJECTS */
 
-.mini-box {
-  background-color: #f0c248;
-  margin: 0 670px 30px 0;
-}
-
-.mini-box p1 {
-  font-weight: bold;
-}
-
 .container2 {
   display: flex;
   gap: 15px;
@@ -191,6 +183,16 @@ header nav ul li a:hover{
 
 .container2 a {
   text-decoration: none;
+}
+
+
+.mini-box {
+  background-color: #f0c248;
+  margin: 0 670px 30px 0;
+}
+
+.mini-box p1 {
+  font-weight: bold;
 }
 
 .box3 {
@@ -329,17 +331,18 @@ nav {
 /* MEDIA QUARIES START */
 
 @media screen and (max-width:968px ) {
+
   
 }
 
-
-@media screen and (min-width:768px ) {
+/* 
+ @media screen and (min-width:768px ) {
   #about-me, #projects, #contact-me {
     align-items: center;
     padding: 0;
     margin: 30px 0px;
   }
-}
+} */
 
 
 @media screen and (min-width:570px ) {
