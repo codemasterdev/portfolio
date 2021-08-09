@@ -7,6 +7,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Kaushan Script', 'open sans';
 }
 
 body {
@@ -88,6 +89,9 @@ header nav ul li a {
   color: #c40006;
 }
 
+header nav ul li a:hover{
+  color: purple;
+}
 /* HEADER END */
 
 /* HERO START*/
@@ -137,7 +141,19 @@ header nav ul li a {
   font-size: 35px;
   text-align: right;
   padding: 0 50px 0 0;
+  border-right: 5px solid red;
 }
+
+.box1-contact{
+  border-right: 5px solid #08090e;
+  flex: 1;
+  color: var(--primary-color);
+  flex-wrap: wrap;
+  font-size: 35px;
+  text-align: right;
+  padding: 0 50px 0 0;
+  
+} 
 
 .box2 {
   flex: 3;
@@ -190,6 +206,10 @@ header nav ul li a {
   padding: 270px 0 0 0;
   border: 5px solid;
   border-color: #c40006;
+}
+
+.mini-box1:hover, .mini-box:hover {
+  color: grey;
 }
 
 .cont1 {
@@ -291,10 +311,34 @@ nav {
 
 .contact-item {
   margin: 20px;
-  text-decoration: none;
-  list-style: none;
+  list-style-type: none;
+  text-decoration: overline;
   padding: 10px;
   background-color:  #fce138;
 }
 
+.contact-item:hover {
+  background-color: red;
+}
+
+
+
 /* CONTACT END */
+
+
+/* MEDIA QUARIES START */
+
+@media screen and (max-width:968px ) {
+  
+}
+
+
+@media screen and (min-width:768px ) {
+
+}
+
+
+@media screen and (min-width:570px ) {
+
+}
+
