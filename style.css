@@ -146,7 +146,7 @@ header nav ul li a:hover{
 }
 
 .box1-contact{
-  border-right: 5px solid #08090e;
+  border-right: 5px solid red;
   flex: 1;
   color: var(--primary-color);
   flex-wrap: wrap;
@@ -162,7 +162,6 @@ header nav ul li a:hover{
   color: var(--primary-color);
   font-size: 20px;
   display: flex;
-  text-align: center;
   flex-wrap: wrap;
   margin: 0 30px;
  }
@@ -177,14 +176,6 @@ header nav ul li a:hover{
   flex-wrap: wrap;
 }
 
-.container2 > * {
-  flex: 1 1 5%; 
-}
-
-.container2 a {
-  text-decoration: none;
-}
-
 
 .mini-box {
   background-color: #f0c248;
@@ -194,6 +185,7 @@ header nav ul li a:hover{
 .mini-box p1 {
   font-weight: bold;
 }
+
 
 .box3 {
   flex: 3;
@@ -297,18 +289,9 @@ header nav ul li a:hover{
 
 /* CONTACT START */
 
-.container3 > * {
+.container3  {
   display: flex;
-  justify-content: space-evenly;
-}
-
-section h2 {
-  text-align: center;
-}
-
-nav {
-  display: flex;
-
+  flex-wrap: wrap;
 }
 
 .contact-item {
@@ -317,10 +300,26 @@ nav {
   text-decoration: overline;
   padding: 10px;
   background-color:  #fce138;
+  display: inline-block;
+}
+
+.contact-list {
+  justify-content: space-around;
 }
 
 .contact-item:hover {
   background-color: red;
+}
+
+.contact-nav {
+  flex: 3;
+  line-height: 1.7;
+  color: var(--primary-color);
+  font-size: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 50px;
+  justify-content: space-evenly;
 }
 
 
