@@ -70,6 +70,16 @@ header nav ul li a {
 header nav ul li a:hover{
   color: purple;
 }
+
+.section-title {
+  flex: 1;
+  color: var(--primary-color);
+  flex-wrap: wrap;
+  font-size: 35px;
+  text-align: right;
+  padding: 0 50px 0 0;
+  border-right: 5px solid  #c40006;
+}
 /* HEADER END */
 
 /* HERO START*/
@@ -77,6 +87,7 @@ header nav ul li a:hover{
 .hero {
   background-image: url("https://images.unsplash.com/photo-1512689980554-181411aca1f5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZmxhbWVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60");
   background-size: cover;
+  background-repeat: no-repeat;
   position: relative;
   display: flex;
   justify-content: right;
@@ -108,32 +119,11 @@ header nav ul li a:hover{
 
 /* ABOUT ME  */
 
-.container1 {
+.about-container {
   display: flex;
 }
 
-.box1 {
-  flex: 1;
-  color: var(--primary-color);
-  flex-wrap: wrap;
-  font-size: 35px;
-  text-align: right;
-  padding: 0 50px 0 0;
-  border-right: 5px solid red;
-}
-
-.box1-contact{
-  border-right: 5px solid red;
-  flex: 1;
-  color: var(--primary-color);
-  flex-wrap: wrap;
-  font-size: 35px;
-  text-align: right;
-  padding: 0 50px 0 0;
-  
-} 
-
-.box2 {
+.about-me {
   flex: 3;
   line-height: 1.7;
   color: var(--primary-color);
@@ -177,6 +167,9 @@ header nav ul li a:hover{
   padding: 270px 0 0 0;
   border: 5px solid;
   border-color: #c40006;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .mini-box1:hover, .mini-box:hover {
@@ -215,6 +208,9 @@ header nav ul li a:hover{
   padding: 70px 0 0 0;
   border: 5px solid;
   border-color: #f0c248;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .box5 {
@@ -230,6 +226,9 @@ header nav ul li a:hover{
   padding: 60px 0 0 0;
   border: 5px solid;
   border-color: #f0c248;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .box6 {
@@ -245,6 +244,9 @@ header nav ul li a:hover{
   padding: 70px 0 0 0;
   border: 5px solid;
   border-color: #f0c248;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .box7 {
@@ -260,13 +262,16 @@ header nav ul li a:hover{
   padding: 70px 0 0 0;
   border: 5px solid;
   border-color: #f0c248;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* PROJECTS END */
 
 /* CONTACT START */
 
-.container3  {
+.contact-container  {
   display: flex;
   flex-wrap: wrap;
 }
@@ -299,6 +304,15 @@ header nav ul li a:hover{
   justify-content: space-evenly;
 }
 
+.contact-nav {
+  flex: 3;
+  line-height: 1.7;
+  color: var(--primary-color);
+  font-size: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 30px;
+ }
 
 
 /* CONTACT END */
