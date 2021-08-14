@@ -22,47 +22,27 @@ h2 {
   color: #c40006;
 }
 
-.section-title {
-  font-size: 35px;
-  color: #c29726;
-}
-
-.primary-border {
-  border-color: #fce138;
-}
-
-.secondary-border {
-  border-color:#c29726;
-}
-
 section {
-  padding: 60px;
+  padding: 3.125rem;
 }
 
 /* HEADER START */
 
 header {
-  padding: 20px 35px;
+  top: 0;
+  z-index: 9999;
+   padding: 20px 35px ;
   background-color: var(--primary-color);
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  position: -webkit-sticky;
   position: sticky;
-  top: 0;
-  background-image: url("/");
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  background-position: 80%;
-  z-index: 9999;
-  color: var(--secondary-color);
 }
 
 header h1 {
   color: var(--secondary-color);
   font-weight: bold;
-  font-size: 36px;
+  font-size: 2.8125rem;
   margin: 0;
 }
 
@@ -77,13 +57,11 @@ header nav {
 header nav ul {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
   list-style: none;
 }
 
 header nav ul li a {
-  padding: 10px 15px;
+  padding: 15px 25px;
   font-weight: lighter;
   font-size: 1.55vw;
   color: #c40006;
@@ -145,7 +123,7 @@ header nav ul li a:hover{
 }
 
 .box1-contact{
-  border-right: 5px solid #08090e;
+  border-right: 5px solid red;
   flex: 1;
   color: var(--primary-color);
   flex-wrap: wrap;
@@ -161,7 +139,6 @@ header nav ul li a:hover{
   color: var(--primary-color);
   font-size: 20px;
   display: flex;
-  text-align: center;
   flex-wrap: wrap;
   margin: 0 30px;
  }
@@ -169,6 +146,13 @@ header nav ul li a:hover{
  /* ABOUT ME END */
 
 /* PROJECTS */
+
+.container2 {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
 
 .mini-box {
   background-color: #f0c248;
@@ -179,19 +163,6 @@ header nav ul li a:hover{
   font-weight: bold;
 }
 
-.container2 {
-  display: flex;
-  gap: 15px;
-  flex-wrap: wrap;
-}
-
-.container2 > * {
-  flex: 1 1 5%; 
-}
-
-.container2 a {
-  text-decoration: none;
-}
 
 .box3 {
   flex: 3;
@@ -295,18 +266,9 @@ header nav ul li a:hover{
 
 /* CONTACT START */
 
-.container3 > * {
+.container3  {
   display: flex;
-  justify-content: space-evenly;
-}
-
-section h2 {
-  text-align: center;
-}
-
-nav {
-  display: flex;
-
+  flex-wrap: wrap;
 }
 
 .contact-item {
@@ -315,10 +277,26 @@ nav {
   text-decoration: overline;
   padding: 10px;
   background-color:  #fce138;
+  display: inline-block;
+}
+
+.contact-list {
+  justify-content: space-around;
 }
 
 .contact-item:hover {
   background-color: red;
+}
+
+.contact-nav {
+  flex: 3;
+  line-height: 1.7;
+  color: var(--primary-color);
+  font-size: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 50px;
+  justify-content: space-evenly;
 }
 
 
@@ -329,20 +307,37 @@ nav {
 /* MEDIA QUARIES START */
 
 @media screen and (max-width:968px ) {
+
   
 }
 
 
-@media screen and (min-width:768px ) {
-  #about-me, #projects, #contact-me {
-    align-items: center;
-    padding: 0;
-    margin: 30px 0px;
-  }
+ @media screen and (max-width:768px ) {
+   /* HEADER */
+    header {
+      flex-direction: column;
+      align-items: center;
+      padding: 0;
+    } 
+   
+}  
+
+
+@media screen and (max-width:570px ) {
+  /* header section  */
+  nav {
+    width: 80vw;
 }
 
+nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
-@media screen and (min-width:570px ) {
+nav ul li {
+    padding: 3px;
+}
 
 }
+
 
