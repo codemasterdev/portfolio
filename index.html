@@ -2,159 +2,243 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Devon's Portfolio</title>
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Open+Sans&display=swap" rel="stylesheet">
-
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Devon Webster || Portfolio</title>
 </head>
 
 <body>
 
-    <!-- HEADER START -->
+    <!-- WELCOME SECTION -->
 
-    <header>
-        <h1>
-            <a href="https://codemasterdev.github.io/portfolio/index.html">Devon Webster</a>
-        </h1>
+    <section id="welcome">
+
         <nav>
+            <a href="/">
+                <img src="./pictures/port-logo.png" alt="logo">
+            </a>
+
             <ul>
-                <li>
-                    <a href="#about-me">About Me</a>
-                </li>
-                <!-- Will Add Later-->
-                <!-- <li>
-                    <a href="#skills">Skills</a>
-                </li> -->
-                <li>
-                    <a href="#projects">Projects</a>
-                </li>
-                <li>
-                    <a href="#contact-me">Contact Me</a>
-                </li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
         </nav>
-    </header>
 
-    <!-- HEADER END -->
+        <article class="header-content">
 
-    <!-- HERO START -->
-
-    <section class="hero">
-        <div class="hero-cta">
-            <h2>Welcome To My Portfolio !</h2>
-            <p>
-                Hello, Im Devon<br> & I'm a Web Developer
-                <hr>
-            </p>
-        </div>
-    </section>
-
-    <!-- HERO END -->
-
-    <!-- ABOUT ME START-->
-
-    <section id="about-me">
-        <div class="container1">
-            <div class="box1">
-                <h2>About Me</h2>
+            <div class="name">
+                <h1>Devon Webster</h1>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/devon-webster-125a54b1/" target="_blank">.
+                        <img src="https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png">
+                    </a>
+                    <a href="https://github.com/codemasterdev" target=_blank>.
+                        <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/768px-LinkedIn_logo_initials.png">
+                    </a>
+                </div>
             </div>
-            <div class="box2">
-                <p>I am passionate about creating intuitive and dynamic user experience. Contributing to the creation
-                    of
-                    high-quality products that are user-centered is what drives my work ethic. Problem-solving,
-                    attention to
-                    details, and creativity are my main principles, therefore having an opportunity to apply these in my
-                    job, be
-                    in continuous and building new skills is my aim.</p>
-            </div>
-        </div>
-    </section>
 
-    <!-- ABOUT ME END -->
+            <div class="info">
+                <div class="role">
+                    <p>Front End Web Developer<br>Shopify Developer</p>
+                </div>
+                <div class="content-body">
+                    <p>I am passionate about creating intuitive and dynamic user experience. Contributing to the
+                        creation
+                        of
+                        high-quality products that are user-centered is what drives my work ethic. Problem-solving,
+                        attention to
+                        details, and creativity are my main principles, therefore having an opportunity to apply
+                        these
+                        in my
+                        job, be
+                        in continuous and building new skills is my aim.
+                    </p>
+                    <div class="buttons">
+                        <a href="#projects" class="btn">View Projects</a>
+                        <a class="btn" href="mailto:d.webster05@yahoo.com">Contact Me</a>
 
-    <!-- PROJECTS START -->
-
-    <section id="projects">
-        <div class="container2">
-            <div class="box1">
-                <h2>Projects</h2>
-            </div>
-            <a href="/">
-                <div class="box3">
-                    <div class="mini-box">
-                        <p1>Surf Report</p1></br>
-                        <p2>MERN stack</p2>
                     </div>
                 </div>
-            </a>
-        </div>
-        <div class="container2">
 
-            <div class="cont1">
-                <a href="/">
-                    <div class="box4">
-                        <div class="mini-box1">
-                            <p1>LED Wall</p1></br>
-                            <p2>Node Iot</p2>
-                        </div>
-                    </div>
-                </a>
-                <a href="/">
-                    <div class="box5">
-                        <div class="mini-box1">
-                            <p1>Calculator</p1></br>
-                            <p2>React JS CSS</p2>
-                        </div>
-                    </div>
-                </a>
-                <a href="/">
-                    <div class="box6">
-                        <div class="mini-box1">
-                            <p1>Pastel Puzzle</p1></br>
-                            <p2>MERN stack</p2>
-                        </div>
-                    </div>
-                </a>
-                <a href="https://codemasterdev.github.io/run-buddy/">
-                    <div class="box7">
-                        <div class="mini-box1">
-                            <p1>Run Buddy</p1></br>
-                            <p2>HTML CSS</p2>
-                        </div>
-                    </div>
-                </a>
 
-            </div>
-        </div>
+
+
+
+        </article>
 
     </section>
-    <!-- PROJECT END -->
 
-    <!-- CONTACT START -->
-    <section id="contact-me">
-        <div class="container3">
-            <div class="box1-contact">
-                <h2>Contact</h2>
-            </div>
-            <nav class="box2">
-                <!-- NAV LIST-->
-                <ul class="contact-list">
-                    <!-- NAV ITEMS-->
-                    <li class="contact-item"><a href="">Email</a></li>
-                    <li class="contact-item"><a href="">Github</a></li>
-                    <li class="contact-item"><a href="">LinkedIn</a></li>
-                    <li class="contact-item"><a href="">Twitter</a></li>
-                </ul>
-            </nav>
+    <!-- WELCOME SECTION END -->
 
+    <!-- PROJECTS -->
+
+    <section id="projects">
+        <div class="project-title">
+            <h2>Projects</h2>
         </div>
+
+        <article id="project-container">
+
+            <!-- JAVASCRIPT PROJECT-->
+            <div class="quiz">
+                <img src="./pictures/quiz.png" alt="quiz-photo">
+                <div class="content">
+                    <h3>Javascript Quiz</h3>
+                    <div class="tech">
+                        <div class="tech-html">HTML</div>
+                        <div class="tech-css">CSS</div>
+                        <div class="tech-js">JAVASCRIPT</div>
+                    </div>
+                    <div class="description">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos, fugit dolores veniam
+                        voluptatum, aut sunt, minima ab iure expedita vel maiores neque alias optio debitis nulla
+                        assumenda aliquid voluptatibus a.
+                    </div>
+                    <div class="buttons">
+                        <a href="https://codemasterdev.github.io/javascript-quiz/" class="demo" target="_blank">Live
+                            Demo</a>
+                        <a href="https://github.com/codemasterdev/javascript-quiz" class="github"
+                            target="_blank">Github</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TASKMASTER PROJECT-->
+            <div class="task">
+                <img src="./pictures/task.png" alt="taskmaster pro">
+                <div class="content">
+                    <h3>Taskmaster Pro</h3>
+                    <div class="tech">
+                        <div class="tech-html">HTML</div>
+                        <div class="tech-css">CSS</div>
+                        <div class="tech-js">JAVASCRIPT</div>
+                        <div class="tech-jquery">JQUERY</div>
+                    </div>
+                    <div class="description">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos, fugit dolores veniam
+                        voluptatum, aut sunt, minima ab iure expedita vel maiores neque alias optio debitis nulla
+                        assumenda aliquid voluptatibus a.
+                    </div>
+                    <div class="buttons">
+                        <a href="https://codemasterdev.github.io/taskmaster-pro/" class="demo" target="_blank">Live
+                            Demo</a>
+                        <a href="https://github.com/codemasterdev/taskmaster-pro" class="github"
+                            target="_blank">Github</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- RUN BUDDY PROJECT-->
+            <div class="run-buddy">
+                <img src="./pictures/run-buddy-screenshot.png" alt="run buddy">
+                <div class="content">
+                    <h3>Run Buddy</h3>
+                    <div class="tech">
+                        <div class="tech-html">HTML</div>
+                        <div class="tech-css">CSS</div>
+                        <!-- <div class="tech-js">JAVASCRIPT</div> -->
+                    </div>
+                    <div class="description">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos, fugit dolores veniam
+                        voluptatum, aut sunt, minima ab iure expedita vel maiores neque alias optio debitis nulla
+                        assumenda aliquid voluptatibus a.
+                    </div>
+                    <div class="buttons">
+                        <a href=https://codemasterdev.github.io/run-buddy/ class="demo" target="_blank">Live Demo</a>
+                        <a href="https://github.com/codemasterdev/run-buddy" class="github" target="_blank">Github</a>
+                    </div>
+                </div>
+            </div>
+
+            <!--PASSWORD GENERATOR PROJECT-->
+            <div class="pw-gen">
+                <img src="./pictures/pw-gen.png" alt="password generator">
+                <div class="content">
+                    <h3>Password Generator</h3>
+                    <div class="tech">
+                        <div class="tech-html">HTML</div>
+                        <div class="tech-css">CSS</div>
+                        <div class="tech-js">JAVASCRIPT</div>
+                    </div>
+                    <div class="description">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos, fugit dolores veniam
+                        voluptatum, aut sunt, minima ab iure expedita vel maiores neque alias optio debitis nulla
+                        assumenda aliquid voluptatibus a.
+                    </div>
+                    <div class="buttons">
+                        <a href="https://codemasterdev.github.io/pw-gen/" class="demo" target="_blank">Live Demo</a>
+                        <a href="https://github.com/codemasterdev/pw-gen" class="github" target="_blank">Github</a>
+                    </div>
+                </div>
+            </div>
+
+        </article>
+
     </section>
 
+    <!-- PROJECTS END -->
+
+    <!-- CONTACT-->
+
+    <section id="contact-footer">
+        <div class=contact-title>
+            <h2>Reach Out</h2>
+        </div>
+        <article class="wrapper">
+
+            <!-- FORM -->
+            <form class="contact form">
+                <div class="details">
+                    <input type="text" name="name" placeholder="Full name" aria-label="name" required>
+                    <input type="text" name="email" placeholder="Email" aria-label="email" required>
+                    <input type="text" name="number" placeholder="Phone number" aria-label="phone number" required>
+                </div>
+                <div class="message">
+                    <p>Message</p>
+                    <textarea rows=4 name="message" required></textarea>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+
+            <!-- CONTACT DETAILS -->
+            <div class="contact-info">
+                <h3>Let's Chat</h3>
+                <p class="contact-body">
+                    I'm open to working on projects or collaborating with people, I'd love to hear your ideas and work
+                    with you.
+                </p>
+                <div class="socials">
+                    <a href="mailto:d.webster05@yahoo.com">Email: D.webster05@yahoo.com</a>
+                    <br>
+                    <a href="https://www.linkedin.com/in/devon-webster-125a54b1/" target="_blank">Connect on
+                        LinkedIn</a>
+
+                </div>
+                <div class="buttons">
+                    <a href="" target="blank" class="resume">View Resume</a>
+                    <a href="https://github.com/codemasterdev" target="_blank" class="github">View Github</a>
+
+                </div>
+            </div>
+
+        </article>
+
+    </section>
 
     <!-- CONTACT END -->
+    <footer class="footer">
+        <p>&#169 2022 Devon Webster</p>
+        <p>
+            <a href="#top">Go To Top</a>
+        </p>
+    </footer>
+
+
 </body>
+
+</html>
