@@ -313,14 +313,16 @@ form button {
     nav {
         flex-direction: column;
         gap: 15px;
+        align-items: center;
       }
       nav ul {
         font-size: 15px;
         gap: 15px;
       }
       nav img {
-        width: 30px;
+        width: 100%;
       }
+      
       .header-content {
         margin: auto;
         gap: 0px;
