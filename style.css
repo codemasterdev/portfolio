@@ -27,9 +27,6 @@ h3 {
 }
 
 /* HOME PAGE STYLES */
-#welcome {
-    height: 55vw;
-}
 
 nav {
     display: flex;
@@ -114,8 +111,6 @@ nav ul li {
 
 /* HOME PAGE STYLES END */
 
- /* ABOUT ME STYLES*/
-
 /* PROJECTS */
 #projects {
     background-color: #003560;
@@ -125,7 +120,7 @@ nav ul li {
     flex-direction: column;
     gap: 50px;
     grid-gap: 50px;
-    
+    display: flex;
 }
 
 .project-title,
@@ -133,6 +128,8 @@ nav ul li {
     text-align: center;
     font-size: 2rem;
     color: var(--secondary-color);
+    text-decoration: underline;
+    text-decoration-color: var(--third-color);
 }
 
 .quiz,
@@ -217,7 +214,8 @@ nav ul li {
 }
 
 .contact-info h3 {
-    color: var(--third-color)
+    color: var(--third-color);
+    
 }
 
 .wrapper {
@@ -309,15 +307,105 @@ form button {
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width: 575px) {
+/*575*/
+@media (max-width: 420px) {
+    /* HEADER */
+    nav {
+        flex-direction: column;
+        gap: 15px;
+      }
+      nav ul {
+        font-size: 15px;
+        gap: 15px;
+      }
+      nav img {
+        width: 30px;
+      }
+      .header-content {
+        margin: auto;
+        gap: 0px;
+      }
+      .header-content h1 {
+        font-size: 3.5rem;
+      }
+    
+      .social-icons img {
+        width: 20px;
+      }
+    
+      .header-content .content-body {
+        font-size: 15px;
+        padding: 0 20px;
+      }
+    
+    /* PROJECTS */  
+    .projects {
+        padding: 50px 20px;
+      }  
+}
+
+@media (max-width: 768px) {
+    #projects {
+        width: 100%;
+    }
 
 }
 
-@media screen and (max-width: 768px) {
+/*980*/
+@media (max-width: 800px) {
 
-}
+    /* HEADER */
 
-@media screen and (max-width: 980px) {
+    .header-content {
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 50px;
+      }
+    
+      .header-content h1 {
+        text-align: center;
+      }
+    
+      .social-icons {
+        justify-content: center;
+      }
+    
+      .header-content h1::before {
+        display: none;
+      }
+    
+      .header-content .info {
+        text-align: center;
+        align-items: center;
+      }
 
+      .name {
+        border-right: none;
+    }
+
+    /* PROJECTS */
+    #projects {
+        padding: 50px 30px;
+        width: 100%;
+      }
+
+
+    /* CONTACT */
+    .contact-section {
+        padding: 15px;
+      }
+      .wrapper {
+        flex-direction: column;
+        padding: 15px;
+      }
+    
+      form {
+        width: 100%;
+      }
+    
+      .contact-info {
+        width: 100%;
+      }
+    
 }
 
