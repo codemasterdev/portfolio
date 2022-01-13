@@ -156,7 +156,7 @@ nav ul li {
 .content {
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: auto;
     gap: 15px;
     justify-content: center;
 }
@@ -365,10 +365,9 @@ form button {
         
     }
 
-    .quiz content {
-        width: 100%;
-    }
-     
+    /* .quiz .content .description {
+        width: auto;
+    } */
 
       footer {
           align-items: center;
@@ -440,5 +439,8 @@ form button {
         width: 100%;
       }
     
+      .contact-info h3 {
+          font-weight: 700;
+      }
 }
 
