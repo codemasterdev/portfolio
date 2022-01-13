@@ -247,6 +247,7 @@ form input, textarea {
     padding: 10px 20px;
     outline: none;
     border: 1px solid var(--third-color);
+
 }
 
 textarea {
@@ -312,7 +313,7 @@ form button {
 
     h3 {
         font-weight: 700;
-        font-size: 1.2rem;
+        font-size: 1.7rem;
     }
 
     /* HEADER */
@@ -349,8 +350,12 @@ form button {
     /* PROJECTS */  
     #projects {
         padding: 50px 20px;
-        
       } 
+
+    .project-container h3 {
+        font-weight: 700;
+        font-size: 1.8rem;
+    }  
     
     .quiz img,
     .task img,
