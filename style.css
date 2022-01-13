@@ -126,7 +126,8 @@ nav ul li {
 .project-title,
 .contact-title{
     text-align: center;
-    font-size: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
     color: var(--secondary-color);
     text-decoration: underline;
     text-decoration-color: var(--third-color);
@@ -322,7 +323,7 @@ form button {
       nav img {
         width: 100%;
       }
-      
+
       .header-content {
         margin: auto;
         gap: 0px;
@@ -341,9 +342,39 @@ form button {
       }
     
     /* PROJECTS */  
-    .projects {
+    #projects {
         padding: 50px 20px;
-      }  
+        
+      } 
+    
+    .quiz img,
+    .task img,
+    .run-buddy img,
+    .pw-gen img {
+        width: auto;
+        height: 50%;
+
+    }
+
+    .quiz,
+    .task,
+    .run-buddy,
+    .pw-gen {
+        display: flex;
+        flex-wrap: wrap; 
+        
+    }
+
+    .quiz content {
+        width: 100%;
+    }
+     
+
+      footer {
+          align-items: center;
+          justify-content: center;
+      }
+      
 }
 
 @media (max-width: 768px) {
