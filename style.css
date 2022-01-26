@@ -121,6 +121,8 @@ nav ul li {
     gap: 50px;
     grid-gap: 50px;
     display: flex;
+    
+    
 }
 
 .project-title,
@@ -296,14 +298,15 @@ form button {
 
 /* FOOTER */
 
-.footer {
+#footer {
     display: flex;
     background: var(--fourth-color);
     justify-content: space-between;
     align-items: center;
     font-size: 0.9rem;
     padding: 20px 100px;
-    color: var(--secondary-color)
+    color: var(--secondary-color);
+    width: 100%;
 }
 
 /* MEDIA QUERIES */
@@ -350,6 +353,8 @@ form button {
     /* PROJECTS */  
     #projects {
         padding: 50px 20px;
+        width: 100%;
+        
       } 
 
     .project-container h3 {
@@ -376,9 +381,10 @@ form button {
     }
 
 
-      footer {
+      footer p {
           align-items: center;
           justify-content: center;
+          display: inline-block;
       }
       
 }
@@ -389,9 +395,13 @@ form button {
         font-size: 1rem;
     }
 
+    #projects {
+        width: 100%;
+    }
+
 }
 
-/*980*/
+/*980*/ /*800*/
 @media (max-width: 800px) {
 
     /* HEADER */
