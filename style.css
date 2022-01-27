@@ -137,7 +137,8 @@ nav ul li {
 .task,
 .run-buddy,
 .pw-gen,
-.wrk-day {
+.wrk-day,
+.weather {
     display: flex;
     gap: 30px;
     max-width: 1200px;
@@ -151,7 +152,8 @@ nav ul li {
 .task img,
 .run-buddy img,
 .pw-gen img,
-.wrk-day img{
+.wrk-day img,
+.weather img{
     width: 60%;
 }
 
