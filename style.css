@@ -120,9 +120,7 @@ nav ul li {
     flex-direction: column;
     gap: 50px;
     grid-gap: 50px;
-    display: flex;
-    
-    
+    display: flex; 
 }
 
 .project-title,
@@ -153,7 +151,7 @@ nav ul li {
 .task img,
 .run-buddy img,
 .pw-gen img,
-.wrk-day {
+.wrk-day img{
     width: 60%;
 }
 
