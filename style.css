@@ -138,7 +138,8 @@ nav ul li {
 .quiz,
 .task,
 .run-buddy,
-.pw-gen {
+.pw-gen,
+.wrk-day {
     display: flex;
     gap: 30px;
     max-width: 1200px;
@@ -151,7 +152,8 @@ nav ul li {
 .quiz img,
 .task img,
 .run-buddy img,
-.pw-gen img {
+.pw-gen img,
+.wrk-day {
     width: 60%;
 }
 
@@ -365,7 +367,8 @@ form button {
     .quiz img,
     .task img,
     .run-buddy img,
-    .pw-gen img {
+    .pw-gen img,
+    .wrk-day {
         width: auto;
         height: 50%;
 
@@ -374,7 +377,8 @@ form button {
     .quiz,
     .task,
     .run-buddy,
-    .pw-gen {
+    .pw-gen,
+    .wrk-day {
         display: flex;
         flex-wrap: wrap; 
         
