@@ -123,6 +123,7 @@ nav ul li {
     display: flex; 
 }
 
+
 .project-title,
 .contact-title{
     text-align: center;
@@ -368,7 +369,8 @@ form button {
     .task img,
     .run-buddy img,
     .pw-gen img,
-    .wrk-day {
+    .wrk-day img,
+    .weather img {
         width: auto;
         height: 50%;
 
@@ -378,7 +380,8 @@ form button {
     .task,
     .run-buddy,
     .pw-gen,
-    .wrk-day {
+    .wrk-day,
+    .weather {
         display: flex;
         flex-wrap: wrap; 
         
@@ -464,5 +467,27 @@ form button {
       .contact-info h3 {
           font-weight: 700;
       }
+
+    .quiz,
+    .task,
+    .run-buddy,
+    .pw-gen,
+    .wrk-day,
+    .weather {
+        display: flex;
+        flex-wrap: wrap; 
+        
+    }
+
+    .quiz img,
+    .task img,
+    .run-buddy img,
+    .pw-gen img,
+    .wrk-day img,
+    .weather img {
+        width: auto;
+        height: 50%;
+
+    }
 }
 
