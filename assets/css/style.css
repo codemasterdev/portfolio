@@ -26,6 +26,10 @@ h3 {
     font-size: 1.8rem;
 }
 
+.link-txt {
+    color: var(--primary-color)
+}
+
 /* HOME PAGE STYLES */
 
 nav {
@@ -489,5 +493,10 @@ form button {
         height: 50%;
 
     }
+
+    #footer {
+        display: flex;
+        flex-direction: column;
+      }
 }
 
