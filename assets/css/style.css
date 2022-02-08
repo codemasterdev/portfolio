@@ -30,6 +30,10 @@ h3 {
     color: var(--primary-color)
 }
 
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 5px;
+  }
 /* HOME PAGE STYLES */
 
 nav {
