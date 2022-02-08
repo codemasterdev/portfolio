@@ -1,3 +1,34 @@
+/* creation of animation moving left in the header */
+@keyframes moveInLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-10rem); }
+    80% {
+      transform: translateX(1rem); }
+    100% {
+      opacity: 1;
+      transform: translate(0); } }
+  
+  /* creation of animation moving right in the header */
+  @keyframes moveInRight {
+    0% {
+      opacity: 0;
+      transform: translateX(10rem); }
+    80% {
+      transform: translate(-1rem); }
+    100% {
+      opacity: 1;
+      transform: translate(0); } }
+  
+  /* creating of button moving up when page loads*/
+  @keyframes moveInBottom {
+    0% {
+      opacity: 0;
+      transform: translateY(3rem); }
+    100% {
+      opacity: 1;
+      transform: translate(0); } }
+
 :root {
     --primary-color: #001d3d;
     --secondary-color: #ffc300;
@@ -32,8 +63,16 @@ h3 {
 
 .btn:hover {
     transform: translateY(-3px);
-    box-shadow: 5px;
-  }
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); }
+    .btn:hover::after {
+      transform: scaleX(1.4) scaleY(1.6);
+      opacity: 0; }
+
+      .btn:active, .btn:focus {
+        outline: none;
+        transform: translateY(-1px);
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); }
+      
 /* HOME PAGE STYLES */
 
 nav {
@@ -52,6 +91,11 @@ nav ul li {
     padding: 1.5rem;
     margin-right: 1.5rem;
     padding-right: 1rem;
+    animation: moveInRight 3s ease-out;
+}
+
+.port-logo {
+    animation: moveInLeft 3s ease-out;
 }
 
 .header-content {
@@ -61,13 +105,15 @@ nav ul li {
     gap: 50px;
     padding: 3rem;
     margin: 3rem;
+    animation: moveInRight 3s ease-out;
 }
 
 .header-content div h1 {
     font-size: 4rem; 
     color: var(--secondary-color);
     justify-content: center;
-   
+    align-items: center;
+    animation: moveInLeft 3s ease-out;
 }
 
 .info .role p {
@@ -82,6 +128,7 @@ nav ul li {
 .name {
     border-right: 3px solid #003560;
     padding-right: 2rem;
+    animation: moveInLeft 3s ease-out;
 }
 
 .content-body p {
@@ -93,6 +140,8 @@ nav ul li {
   gap: 50px;
   justify-content: flex-end;
   padding: 20px 30px;
+  animation: moveInLeft 3s ease-out; 
+  
 }
 
 .social-icons img {
@@ -107,6 +156,7 @@ nav ul li {
       grid-gap: 20px;
       justify-content: center;
       padding-top: 5%;
+      /* animation: moveInBottom 3s ease-out; */
   }
 
   .btn {
@@ -140,6 +190,7 @@ nav ul li {
     color: var(--secondary-color);
     text-decoration: underline;
     text-decoration-color: var(--third-color);
+    
 }
 
 .quiz,
@@ -164,6 +215,7 @@ nav ul li {
 .wrk-day img,
 .weather img{
     width: 60%;
+    /* animation: moveInLeft 3s ease-out; */
 }
 
 .content {
@@ -172,6 +224,7 @@ nav ul li {
     width: auto;
     gap: 15px;
     justify-content: center;
+    /* animation: moveInRight 3s ease-out; */
 }
 
 .tech {
