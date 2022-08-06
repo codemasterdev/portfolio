@@ -8,7 +8,7 @@ To broadcast my personal portfolio to potential employers
 * CSS
 
 ## Website
-https://codemasterdev.github.io/portfolio/index.html
+https://codemasterdev.netlify.app/
 
 ## Contribution
 Made with ❤️ by [Devon Webster]
